@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.divBar {
+    position: relative;
+    margin-top: 1cm;
+}
+header{
+    margin-bottom: 3em;
+}
+.logo{
+    position: absolute;
+    margin-top: 10px;
+}
+.delicious{
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 3px;
+}
+.foodblog{
+    position: absolute;
+    color: grey;
+    font-family: 'Teko', sans-serif;
+    font-size: x-small;
+    letter-spacing: 0.2em ;
+    margin-left: 5em;
+    margin-top: 4.3em;
+}
+.socialicons{
+    float: right;
+}
+.icon{
+    width: 1.5em;
+}
+#flow{
+    overflow: auto;
+    
+}
+h2{
+margin: 3em 0 0.5em 0; 
+padding: 0.2em;
+width: 100%;
+
+}
+.fstripe-line{
+    
+    background: repeating-linear-gradient(
+        45deg,
+        gray,
+        white 2px,
+        gray 2px,
+        white 2px,
+        gray 2px,
+        white 2px
+      );
+
+}
+.chocolate-pizza{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom: -0.3em;
+    
+}
+.date{
+    color: lightgrey;
+    display: inline;
+    font-size: 12px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 0.2em ;
+    
+}
+.print-icon {
+    float: right;
+    padding-top: 4px;
+
+}
+.choco-pizza{
+    width: 100%;
+    margin-top: 1.7em;
+}
+.button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: lightgray;
+    float: right;
+    /* margin-right: 0; */
+}
+.paragraph{
+    line-height: 20pt;
+    color: gray;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    text-indent: 2em;
+}
+.list{
+    margin-top: 2em;
+    width: 100%;
+}
+.checkboxlist{
+    margin-top: -12em;
+    width: 100%;
+    color: gray;
+    display: inherit;
+    line-height: 20pt;
+    font-family: 'Zilla Slab', serif;
+    font-size: 27px;
+
+}
+.first{
+    display: inline-block;
+    width: 40%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+.left-colomn{
+    margin-left: 9%;
+}
+input[type=checkbox]:checked + label {text-decoration: line-through;}
+
+.footer-stripe{
+    background: repeating-linear-gradient(
+        45deg,
+        gray,
+        white 2px,
+        gray 2px,
+        white 2px,
+        gray 2px,
+        white 2px
+      );
+      margin-top: 7em;
+}
+.vanessa{
+    display: inline-block;
+    color: gray;
+    width: 75%;
+}
+.introduction{
+    position: absolute;
+    width: 50px;
+    margin-top: 1em;
+
+}
+.name{
+    text-size: large;
+    margin-bottom: 1.7em;
+    margin-left: 8%;
+}
+.bio{
+    font-size: large;
+    line-height: 15pt;
+    margin-left: 8%;
+    width: 85%;
+    margin-top: -1em;
+}
+.share-button{
+    display:inline;
+    float: right;
+
+}
+
+.share{
+    padding: 20px;
+    border: none;
+    color: white;
+    background-color: rgba(224, 45, 45, 0.993);
+    float: right;
+    font-size: 15px;
+    margin-top: 3em;
+    text-transform: uppercase;
+    width: 12em;
+}
+.slogo{
+   
+    display: block;
+    width: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+    .footer-copyights{
+        color: gray;
+        line-height: 1em;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+  
+    
